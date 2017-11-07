@@ -8,7 +8,7 @@ var sizeMode=1;
 var tiles=[];
 
 function setup() { 
-  createCanvas(1000, 600);
+  createCanvas(windowWidth,windowHeight);
 	noStroke();
 	fill(255,0,0);
 	tileWidth=width/tileCount;
